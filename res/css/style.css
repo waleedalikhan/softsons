@@ -1,0 +1,345 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Navbar */
+.custom-navbar {
+  padding: 9px 30px;
+  background: #fff;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  -webkit-box-shadow: 0px 0px 46px -21px rgba(0, 0, 0, 0.75);
+          box-shadow: 0px 0px 46px -21px rgba(0, 0, 0, 0.75);
+}
+
+.custom-navbar .menu-item {
+  font-size: 17px;
+  letter-spacing: 0px;
+  color: #000;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.custom-navbar .menu-item:hover {
+  color: #4cf;
+}
+
+.custom-navbar .active {
+  color: #70aed2;
+}
+
+.nav-menu {
+  background: #445;
+  padding: 20px;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.nav-menu .menu-item {
+  font-size: 19px;
+  letter-spacing: 1px;
+  color: #eee;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+}
+
+.nav-menu .menu-item:hover {
+  color: #4cf;
+}
+
+.nav-menu .active {
+  color: #70aed2;
+}
+
+.nav-button {
+  outline: none;
+}
+
+.navbar-toggler {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  border: 0;
+}
+
+.navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  outline: none;
+  border: 0;
+}
+
+.change .line-1 {
+  -webkit-transform: rotate(-45deg) translate(-7px, 6px);
+          transform: rotate(-45deg) translate(-7px, 6px);
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+}
+
+.change .line-2 {
+  opacity: 0;
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+}
+
+.change .line-3 {
+  -webkit-transform: rotate(45deg) translate(-7px, -6px);
+          transform: rotate(45deg) translate(-7px, -6px);
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+}
+
+.line-1,
+.line-2,
+.line-3 {
+  width: 43px;
+  height: 4px;
+  margin: 5px;
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+  background: #4cf;
+}
+
+/* Navbar Ends */
+/* Home */
+#home {
+  background: url(../img/banner-bg-2.jpg) no-repeat center/cover;
+  height: 100vh;
+  position: relative;
+}
+
+#home .banner-text {
+  position: absolute;
+  top: 38%;
+  right: 0;
+}
+
+#home .banner-text .banner-h {
+  letter-spacing: 5px;
+}
+
+/* Home Ends */
+/* What We Do */
+#what-we-do .underline {
+  height: 5px;
+  background: #000;
+  width: 20%;
+  margin: auto;
+}
+
+#what-we-do .card-hover:hover {
+  background: #4cf;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#what-we-do .card-body {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  min-height: 290px;
+}
+
+#what-we-do .card-body .button {
+  border-radius: 0;
+  border: 2px solid black;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  color: #000;
+  font-size: 16px;
+}
+
+#what-we-do .card-body .button:hover {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+  background: #000;
+  color: #fff;
+}
+
+#what-we-do .card-body .card-title-thick {
+  font-weight: bolder;
+}
+
+/* What We Do Ends */
+/* About Us */
+#about-us {
+  background: #444;
+}
+
+#about-us .circle h1 {
+  width: 30%;
+  padding: 20px;
+  border: 3px solid #44ccff;
+  -webkit-box-shadow: 0px 0px 46px -21px #4cf;
+          box-shadow: 0px 0px 46px -21px #4cf;
+  text-align: center;
+  border-radius: 50%;
+}
+
+/* About Us Ends */
+/* Portfolio */
+#portfolio .contaner {
+  position: relative;
+}
+
+#portfolio .overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  -webkit-transition: 0.5s ease;
+  transition: 0.5s ease;
+  background-color: #008cba;
+}
+
+#portfolio .contaner:hover .overlay {
+  opacity: 1;
+}
+
+#portfolio .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Portfolio Ends */
+/* Team */
+#team .customers {
+  background: #151f20;
+}
+
+/* Team Ends */
+/* Technology */
+#technology .skills {
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+#technology .skills:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
+}
+
+/* Technology Ends */
+/* Contact Us */
+#contact-us form {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#contact-us form .form-group {
+  outline: none;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#contact-us form .form-group:focus {
+  outline: none;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact-us form .form-group .form-control {
+  background: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px groove #eee;
+  border-radius: 0;
+  -webkit-transition: all linear 0.5s;
+  transition: all linear 0.5s;
+  width: 75%;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact-us form .form-group .form-control:focus {
+  border-bottom: 2px groove #f5593d;
+  outline: none;
+  background: none;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  color: #eee;
+}
+
+#contact-us form .form-group .check-text {
+  font-size: 17px;
+  font-weight: 400;
+  margin-left: 0;
+  letter-spacing: 1px;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact-us form .button {
+  width: 75%;
+  background-color: #f5593d;
+  outline: none;
+  border: none;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  -webkit-transition: all linear 0.4s;
+  transition: all linear 0.4s;
+}
+
+#contact-us form .button:focus {
+  outline: transparent;
+  outline-offset: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+#contact-us form .button:hover {
+  background: #f9793d;
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+}
+
+/* Contact Us Ends */
+.icon {
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 10px;
+  -webkit-transition: all ease-in-out .4s;
+  transition: all ease-in-out .4s;
+}
+
+.icon:hover {
+  border: 2px solid #4cf;
+  background: #4cf;
+  -webkit-transition: all ease-in-out .4s;
+  transition: all ease-in-out .4s;
+}
+/*# sourceMappingURL=style.css.map */
