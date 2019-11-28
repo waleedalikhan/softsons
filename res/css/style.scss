@@ -4,6 +4,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navbar */
 .custom-navbar {
   padding: 9px 30px;
@@ -20,7 +24,7 @@ body {
     }
   }
   .active {
-    color: #70aed2;
+    color: #4cf;
   }
 }
 .nav-menu {
@@ -37,7 +41,7 @@ body {
     }
   }
   .active {
-    color: #70aed2;
+    color: #4cf;
   }
 }
 .nav-button {
@@ -206,11 +210,11 @@ body {
 /* Contact Us */
 #contact-us {
   form {
-      justify-content: center;
-      justify-items: center;
-      justify-self: center;
-      align-items: center;
-      align-self: center;
+    justify-content: center;
+    justify-items: center;
+    justify-self: center;
+    align-items: center;
+    align-self: center;
     .form-group {
       outline: none;
       outline-offset: 0;
@@ -272,15 +276,15 @@ body {
 /* Contact Us Ends */
 
 .icon {
-    color: #fff;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    padding: 15px;
-    font-size: 10px;
-    transition: all ease-in-out .4s;
-    &:hover {
-        border: 2px solid #4cf;
-        background: #4cf;
-        transition: all ease-in-out .4s;
-    }
+  color: #fff;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 10px;
+  transition: all ease-in-out 0.4s;
+  &:hover {
+    border: 2px solid #4cf;
+    background: #4cf;
+    transition: all ease-in-out 0.4s;
+  }
 }

@@ -4,6 +4,10 @@ body {
   font-family: "Raleway", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Navbar */
 .custom-navbar {
   padding: 9px 30px;
@@ -27,7 +31,7 @@ body {
 }
 
 .custom-navbar .active {
-  color: #70aed2;
+  color: #4cf;
 }
 
 .nav-menu {
@@ -50,7 +54,7 @@ body {
 }
 
 .nav-menu .active {
-  color: #70aed2;
+  color: #4cf;
 }
 
 .nav-button {
@@ -332,14 +336,14 @@ body {
   border-radius: 50%;
   padding: 15px;
   font-size: 10px;
-  -webkit-transition: all ease-in-out .4s;
-  transition: all ease-in-out .4s;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
 }
 
 .icon:hover {
   border: 2px solid #4cf;
   background: #4cf;
-  -webkit-transition: all ease-in-out .4s;
-  transition: all ease-in-out .4s;
+  -webkit-transition: all ease-in-out 0.4s;
+  transition: all ease-in-out 0.4s;
 }
 /*# sourceMappingURL=style.css.map */
