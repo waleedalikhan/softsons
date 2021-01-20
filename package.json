@@ -19,7 +19,7 @@
   "homepage": "https://github.com/waleedalikhan/softsons#readme",
   "dependencies": {
     "@dogstudio/highway": "^2.1.3",
-    "gsap": "^3.0.1",
+    "gsap": "^3.6.0",
     "jquery": "^3.4.1",
     "parcel-bundler": "^1.12.4",
     "popper.js": "^1.16.0",
